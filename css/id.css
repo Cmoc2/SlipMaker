@@ -1,0 +1,26 @@
+#slip_background{
+  background: url("../img/slip.jpg") no-repeat;
+  background-size: cover;
+  width: 660px;
+  height: 350px;
+}
+
+#input_name{
+  position: fixed;
+  left: 149px;
+  top: 118px;
+}
+
+#input_order{
+  position:fixed;
+  left:147px;
+  top: 182px;
+  width: 400px;
+}
+#input_side_note{
+  position:fixed;
+  left:580px;
+  top:170px;
+  height: 139px;
+  width: 84px;
+}
