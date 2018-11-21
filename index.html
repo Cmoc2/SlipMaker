@@ -7,18 +7,29 @@
   </head>
   <body>
     <div id='slip_background'>
+      <input id="input_soc_box" type="checkbox"><label for="input_soc_box">SOC</label>
+      <input id="input_order_box" type="checkbox"><label for="input_order_box">Order</label>
+      <input id="input_urgent_box" type="checkbox"><label for="input_urgent_box">Urgent</label>
       <input id="input_name" type="text">
       <input id="input_order" type="text">
+      <textarea id="input_side_note"></textarea>
       <select id="input_requested_by">
         <option> Marissa </option>
         <option> Mikhail </option>
         <option> Monika </option>
       </select>
-      <textarea id="input_side_note"></textarea>
     </div>
-    <input id="slip_submit" type="submit"></input>
-    <a id="csv_file" download> a</a>
+    <ul id="pending_list">
+    </ul>
+    <input id="slip_submit" type="submit" value="Download as CSV">
+    <button id="append_pending_list">Save to List</button>
+    <label id="upload_file_label" for="upload_file">
+      Drag or Click Here
+      <input id="upload_file" type="file" accept=".csv">
+    </label>
+    <a id="csv_file" hidden download> a</a>
 
     <script src='js/slipmaker.js'></script>
+    <script src='js/slipmaker_eventlisteners.js'></script>
   </body>
 </html>

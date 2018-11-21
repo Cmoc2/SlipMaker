@@ -4,28 +4,51 @@
   width: 660px;
   height: 350px;
 }
+#input_soc_box{
+  position:absolute;
+  left:147px;
+  top: 30px;
+}
+#input_order_box{
+  position:absolute;
+  left:147px;
+  top: 50px;
+}
+#input_urgent_box{
+  position:absolute;
+  left:147px;
+  top: 70px;
+}
 
 #input_name{
-  position: fixed;
+  position: absolute;
   left: 149px;
   top: 118px;
 }
 
 #input_order{
-  position:fixed;
+  position:absolute;
   left:147px;
   top: 182px;
   width: 400px;
 }
 #input_side_note{
-  position:fixed;
+  position:absolute;
   left:580px;
   top:170px;
   height: 139px;
   width: 84px;
 }
 #input_requested_by{
-  position:fixed;
+  position:absolute;
   left:145px;
   top:335px;
+}
+#upload_file{
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
 }
